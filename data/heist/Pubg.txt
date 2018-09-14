@@ -1,0 +1,59 @@
+Jail = reviving
+OOB = running on painkillers
+Police = Enemy Squads
+Bail = revive
+Crew = squad
+Sentence = nap
+Heist = attack
+Vault = City
+
+|Good| "{} played a safe game <:pubg:467719256830902272>. +10 credits", 10
+|Good| "{} killed a bot :robot:. +25 credits", 25
+|Good| "{} brought supplies of energy drinks <:energy_drink:465547384839995396>. +25 credits", 25
+|Good| "{} remembered to check their parachute before jumping out of plane :airplane:. +25 credits", 25
+|Good| "{} successfuly used a smoke grenade to revive a crew-mate <:smoke_grenade:465547385775587330>. +25 credits", 25
+|Good| "{} took down a guy in ghillie suit <:ghillie_suit:475700631198498819>. +50 credits.", 50
+|Good| "{} used a molotov successfully to kill 2 enemies :bottle_with_popping_cork:. +50 credits", 50
+|Good| "{} lured enemies so that his squad can corner him. He managed to live and tell the tail! <:pubg:467719256830902272> +50 credits", 50
+|Good| "{} boosted at the right time and saved themselves <:adrenaline:475700764333834250>. +50 credits", 50
+|Good| "{} used his vector so well in CQC. +100 credits", 100
+|Good| "{} killed someone hiding in the bushes +100 credits", 100
+|Good| "{} took down an enemy from 400m with their AWM <:awm:465547386031177752>. +100 credits", 100
+|Good| "{} strategized and led his team to victory <:chicken_dinner:477477745677565954> .+100 credits", 100
+|Good| "{} used the audio cues effectively and tracked the nearby enemies :headphones:. +100 credits", 100
+|Good| "{} successfully cleared a compound. :house: +100 credits", 100
+|Good| "{} managed to take out a squad on his own. +150 credits", 150
+|Good| "{} got every last med available for his crew <:medkit:465547386735820800>. +250 credits", 250
+|Good| "{} went solo vs squads and managed to take out 4 squads. OP! +1,000 credits", 1000
+|Good| "{}'s crew did a 40 kill bomb. Awesome! :bomb: +1000 credits", 1000
+|Good| "{} WINNER WINNER CHICKEN DINNER (with some classy Juice)!<:chicken_dinner:477477745677565954> +2500 credits", 2500
+
+|Bad| "{0} muted themselves and couldn't ask for help :mute:", "Apprehended"
+|Bad| "{0} went in the game without checking their controls :joystick:", "Apprehended"
+|Bad| "{0} dropped a grenade on themself.<:grenade:465547385867599891>", "Apprehended"
+|Bad| "{0} forgot to bring meds.:no_entry_sign: <:first_aid_kit:465547386182172696> ", "Apprehended"
+|Bad| "{0} was unable to hide.", "Apprehended"
+|Bad| "{0} lost connection! :electric_plug:", "Apprehended"
+|Bad| "{0} had the worst day and got knocked by a bot. :robot:", "Apprehended"
+|Bad| "{0} stayed behind to clear an empty mansion and got knocked from back. :house_abandoned:", "Apprehended"
+|Bad| "{0} was knocked by an enemy's grenade. <:grenade:465547385867599891>", "Apprehended"
+|Bad| "{0} crashed his vehicle in a rock. :red_car::mountain:", "Apprehended"
+|Bad| "{0} forgot his controls and was knocked off. :joystick:", "Apprehended"
+|Bad| "{0} managed to get 0 weapons. :no_entry_sign: <:m16a4:465547386102611968>", "Apprehended"
+|Bad| "{0} decided to attack bushes.", "Apprehended"
+|Bad| "{0} dropped their M416 instead of a P19 and rage quit. <:m416:465547385930645504>", "Apprehended"
+|Bad| "{0} decided to split from his crew and got cornered.", "Apprehended"
+|Bad| "{0} got lost in the ocean. :ocean:", "Apprehended"
+|Bad| "{0} forgot to jump from the plane. :airplane:", "Apprehended"
+|Bad| "{0} was about to kill an enemy but was knocked before.", "Apprehended"
+|Bad| "{0} forgot directions and was killed by enemies. (death:skull_crossbones:)", "Dead"
+|Bad| "{0} stayed in the blue zone guarding an abadoned mansion. :house_abandoned:(death:skull_crossbones:)", "Dead"
+|Bad| "{0} didn't had guts to take risks and was killed while hiding in a bush. (death:skull_crossbones:)", "Dead"
+|Bad| "{0} got stuck in a squad battle. (death:skull_crossbones:)", "Dead"
+|Bad| "{0} accidentally put a grenade in his pocket after pulling the pin. <:grenade:465547385867599891>(death:skull_crossbones:)", "Dead"
+|Bad| "{0} got all his crew dead by throwing a grenade at them. Shame! <:grenade:465547385867599891>(death:skull_crossbones:)", "Dead"
+|Bad| "{0} switched to his pan while encountering a nearby enemy. Like seriously? <:pan:475700268219105280> :face_palm:(death:skull_crossbones:)", "Dead"
+|Bad| "{0} attempted to troll someone but it went wrong. (death:skull_crossbones:)", "Dead"
+|Bad| "{0} was caught using the hill glitch and had to pay for it. :mountain: :money_with_wings:(death:skull_crossbones:)", "Dead"
+|Bad| "{0} was banned by the Juicy Server's mods. Depression caught them and they weren't able to pay attention in the game. (death:skull_crossbones:)", "Dead"
+

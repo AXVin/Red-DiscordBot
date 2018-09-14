@@ -1,0 +1,201 @@
+{
+    "Servers" : {
+        "461570935988944896" : {
+            "Config" : {
+                "Alert Time" : 0,
+                "Bail Base" : 500,
+                "Crew Output" : "None",
+                "Death Timer" : 120,
+                "Hardcore" : false,
+                "Heist Cost" : 1000,
+                "Heist Planned" : false,
+                "Heist Start" : false,
+                "Police Alert" : 60,
+                "Sentence Base" : 60,
+                "Theme" : "Pubg",
+                "Version" : 2.41,
+                "Wait Time" : 60
+            },
+            "Crew" : {},
+            "Players" : {
+                "229998752583254017" : {
+                    "Bail Cost" : 0,
+                    "Criminal Level" : 0,
+                    "Death Timer" : 1946,
+                    "Deaths" : 2,
+                    "Jail Counter" : 0,
+                    "Name" : "Bloggod(homeless need clan ;-;)",
+                    "OOB" : false,
+                    "Sentence" : 0,
+                    "Spree" : 0,
+                    "Status" : "Dead",
+                    "Time Served" : 0,
+                    "Total Jail" : 1
+                },
+                "310074794102095873" : {
+                    "Bail Cost" : 500,
+                    "Criminal Level" : 1,
+                    "Death Timer" : 0,
+                    "Deaths" : 5,
+                    "Jail Counter" : 1,
+                    "Name" : "AXVin",
+                    "OOB" : false,
+                    "Sentence" : 60,
+                    "Spree" : 0,
+                    "Status" : "Apprehended",
+                    "Time Served" : 2613,
+                    "Total Jail" : 6
+                },
+                "313943421188308992" : {
+                    "Bail Cost" : 0,
+                    "Criminal Level" : 0,
+                    "Death Timer" : 0,
+                    "Deaths" : 0,
+                    "Jail Counter" : 0,
+                    "Name" : "TH\u00ea K\u00ed\u00f1g | BRH",
+                    "OOB" : false,
+                    "Sentence" : 0,
+                    "Spree" : 0,
+                    "Status" : "Free",
+                    "Time Served" : 0,
+                    "Total Jail" : 0
+                },
+                "395777051153530880" : {
+                    "Bail Cost" : 500,
+                    "Criminal Level" : 2,
+                    "Death Timer" : 0,
+                    "Deaths" : 3,
+                    "Jail Counter" : 2,
+                    "Name" : "Amit",
+                    "OOB" : false,
+                    "Sentence" : 0,
+                    "Spree" : 0,
+                    "Status" : "Free",
+                    "Time Served" : 0,
+                    "Total Jail" : 11
+                },
+                "423115180486950912" : {
+                    "Bail Cost" : 0,
+                    "Criminal Level" : 0,
+                    "Death Timer" : 0,
+                    "Deaths" : 1,
+                    "Jail Counter" : 0,
+                    "Name" : "U\u00d0\u4e61AgentNoob",
+                    "OOB" : false,
+                    "Sentence" : 0,
+                    "Spree" : 0,
+                    "Status" : "Free",
+                    "Time Served" : 0,
+                    "Total Jail" : 1
+                },
+                "466164281625280512" : {
+                    "Bail Cost" : 500,
+                    "Criminal Level" : 2,
+                    "Death Timer" : 0,
+                    "Deaths" : 0,
+                    "Jail Counter" : 2,
+                    "Name" : "sHAdowX",
+                    "OOB" : false,
+                    "Sentence" : 0,
+                    "Spree" : 0,
+                    "Status" : "Free",
+                    "Time Served" : 0,
+                    "Total Jail" : 2
+                },
+                "479333381230821376" : {
+                    "Bail Cost" : 0,
+                    "Criminal Level" : 0,
+                    "Death Timer" : 0,
+                    "Deaths" : 0,
+                    "Jail Counter" : 0,
+                    "Name" : "TINTUMON009",
+                    "OOB" : false,
+                    "Sentence" : 0,
+                    "Spree" : 1,
+                    "Status" : "Free",
+                    "Time Served" : 0,
+                    "Total Jail" : 0
+                }
+            },
+            "SurvivingCrew" : {},
+            "Targets" : {
+                "Georgopol" : {
+                    "Crew" : 23,
+                    "Success" : 5,
+                    "Vault" : 284000,
+                    "Vault Max" : 284000
+                },
+                "Lipovka" : {
+                    "Crew" : 3,
+                    "Success" : 24,
+                    "Vault" : 25000,
+                    "Vault Max" : 25000
+                },
+                "Mylta" : {
+                    "Crew" : 13,
+                    "Success" : 12,
+                    "Vault" : 150000,
+                    "Vault Max" : 150000
+                },
+                "Mylta Power" : {
+                    "Crew" : 19,
+                    "Success" : 7,
+                    "Vault" : 175000,
+                    "Vault Max" : 175000
+                },
+                "Novorepnoye" : {
+                    "Crew" : 16,
+                    "Success" : 19,
+                    "Vault" : 150000,
+                    "Vault Max" : 9
+                },
+                "Pochinki" : {
+                    "Crew" : 50,
+                    "Success" : 1,
+                    "Vault" : 1000000,
+                    "Vault Max" : 1000000
+                },
+                "Primorsk" : {
+                    "Crew" : 9,
+                    "Success" : 15,
+                    "Vault" : 100000,
+                    "Vault Max" : 100000
+                },
+                "Rozhok" : {
+                    "Crew" : 5,
+                    "Success" : 19,
+                    "Vault" : 60000,
+                    "Vault Max" : 60000
+                },
+                "Sosnovka Military Base" : {
+                    "Crew" : 30,
+                    "Success" : 2,
+                    "Vault" : 300000,
+                    "Vault Max" : 300000
+                },
+                "Stalber" : {
+                    "Crew" : 4,
+                    "Success" : 21,
+                    "Vault" : 40000,
+                    "Vault Max" : 40000
+                },
+                "Yasnaya Polyana" : {
+                    "Crew" : 7,
+                    "Success" : 17,
+                    "Vault" : 80000,
+                    "Vault Max" : 80000
+                }
+            },
+            "Theme" : {
+                "Bail" : "revive",
+                "Crew" : "squad",
+                "Heist" : "attack",
+                "Jail" : "reviving",
+                "OOB" : "running on painkillers",
+                "Police" : "Enemy Squads",
+                "Sentence" : "nap",
+                "Vault" : "City"
+            }
+        }
+    }
+}

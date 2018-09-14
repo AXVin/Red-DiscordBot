@@ -1,0 +1,39 @@
+{
+    "Servers" : {
+        "461570935988944896" : {
+            "Config" : {
+                "Inventory Output Method" : "Chat",
+                "Member Discount" : null,
+                "Pending Type" : "Manual",
+                "Shop Name" : "Juicy TV",
+                "Shop Notify" : false,
+                "Shop Open" : true,
+                "Shop Role" : null,
+                "Sort Method" : "Alphabet",
+                "Store Output Method" : "Chat",
+                "Trade Cooldown" : 30
+            },
+            "Pending" : {},
+            "Shop List" : {
+                "Rainbow Role" : {
+                    "Buy Msg" : [],
+                    "Discount" : 0,
+                    "Item Cost" : 50000000,
+                    "Item Name" : "Rainbow Role",
+                    "Members Only" : "No",
+                    "Quantity" : "\u221e",
+                    "Role" : "489046171491237888"
+                }
+            },
+            "Users" : {
+                "310074794102095873" : {
+                    "Block Trades" : false,
+                    "Inventory" : {},
+                    "Member" : false,
+                    "Trade Cooldown" : 0
+                }
+            }
+        }
+    },
+    "Version" : "2.2.10"
+}

@@ -1,0 +1,12 @@
+{
+    "431374578409799681" : {
+        "CHANNEL" : null,
+        "DEBUG" : false,
+        "TOGGLE" : false
+    },
+    "461570935988944896" : {
+        "CHANNEL" : "476376109017989120",
+        "DEBUG" : true,
+        "TOGGLE" : true
+    }
+}
