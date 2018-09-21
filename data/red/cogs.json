@@ -20,6 +20,7 @@
     "cogs.scheduler" : true,
     "cogs.seen" : true,
     "cogs.shop" : true,
+    "cogs.slowmode" : true,
     "cogs.streams" : true,
     "cogs.translated" : true,
     "cogs.trivia" : true,
