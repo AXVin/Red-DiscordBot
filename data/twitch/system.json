@@ -1,0 +1,47 @@
+{
+    "Servers" : {
+        "431374578409799681" : {
+            "Config" : {
+                "Client-ID" : "ldd810pl8fmldhnqx74tfj0htrspdn",
+                "Default Streamer" : "rollexxx",
+                "VC Category" : null,
+                "VC Channel" : "495445119353356298",
+                "VC Display" : true
+            },
+            "Streamers" : {
+                "rollexxx" : {
+                    "Display Name" : "Rollexxx",
+                    "Streamer ID" : "47514919"
+                }
+            }
+        },
+        "461570935988944896" : {
+            "Config" : {
+                "Client-ID" : "ldd810pl8fmldhnqx74tfj0htrspdn",
+                "Default Streamer" : "xjuicyfruitz",
+                "VC Category" : null,
+                "VC Channel" : "495269110007988224",
+                "VC Display" : true
+            },
+            "Streamers" : {
+                "axvin_" : {
+                    "Display Name" : "AXVin_",
+                    "Streamer ID" : "209804429"
+                },
+                "rollexxx" : {
+                    "Display Name" : "Rollexxx",
+                    "Streamer ID" : "47514919"
+                },
+                "shroud" : {
+                    "Display Name" : "shroud",
+                    "Streamer ID" : "37402112"
+                },
+                "xjuicyfruitz" : {
+                    "Display Name" : "xJuicyFruitz",
+                    "Streamer ID" : "208763546"
+                }
+            }
+        }
+    },
+    "Version" : "1.0.0"
+}
