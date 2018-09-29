@@ -1,1 +1,1 @@
-web: python red.py
+worker: python red.py
