@@ -32,12 +32,19 @@ class Slowmode:
 
     @slowmode.command(name="enable", pass_context=True, no_pm=True)
     @checks.admin_or_permissions(manage_server=True)
-    async def _enable(self, ctx, time: int):
+    async def _enable(self, ctx, time: int, channel=None):
         """Enable the slowmode. Time must be in seconds and a value between 0 and 120)"""
         
         if 0 < time <= 120:               # Checks if time is between 0 and 120 as beyond that isn't allowed by Discord
-            await self.set_slowmode(ctx, time)
-            msg = "Slowmode for this channel set to {} seconds".format(time)
+            try:
+                if channel == None:
+                    channel = ctx.message.channel.id
+                    msg = "Slowmode for this channel set to {} seconds".format(time)
+                else:
+                    msg = "Slowmode for <#{}> set to {} seconds".format(channel, time)
+                await self.set_slowmode(ctx, time, channel)
+            except:
+                msg = "Couldn't find the channel! Please use the correct channel id"
         else:                             # Response for a value which isn't supported
             msg = "Time must be between 0 to 120!"
             
@@ -47,16 +54,23 @@ class Slowmode:
        
     @slowmode.command(name="disable", pass_context=True, no_pm=True)
     @checks.admin_or_permissions(manage_server=True)
-    async def _disable(self, ctx):
+    async def _disable(self, ctx, channel=None):
         """Disables the slowmode"""
         
-        await self.set_slowmode(ctx, 0)              # Not the official way to disable it though! So simply setting slowmode timing to 0!
-        msg = "Removed slowmode from this channel!"
+        try:
+            if channel == None:
+                channel = ctx.message.channel.id
+                msg = "Removed slowmode from this channel!"
+            else:
+                msg = "Removed slowmode from <#{}>".format(channel)
+            await self.set_slowmode(ctx, 0, channel)              # Not the official way to disable it though! So simply setting slowmode timing to 0!
+        except:
+            msg = "Couldn't find the channel! Please try again with correct channel id"
         await self.bot.say(msg)
 
 
-    async def set_slowmode(self, ctx, time):   # The snippet which actually does the slowmode thing!
-        route = Route('PATCH', '/channels/{channel_id}', channel_id=ctx.message.channel.id)       # Defining a variable route which Routes to the channel by method PATCH 
+    async def set_slowmode(self, ctx, time, channel):   # The snippet which actually does the slowmode thing!
+        route = Route('PATCH', '/channels/{channel_id}', channel_id=channel)       # Defining a variable route which Routes to the channel by method PATCH 
         await self.bot.http.request(route, json={'rate_limit_per_user': time})                    # Actually patching the 'rate_limit_per_user' to enable slowmode!
             
             

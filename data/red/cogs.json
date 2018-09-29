@@ -21,8 +21,9 @@
     "cogs.seen" : true,
     "cogs.shop" : true,
     "cogs.slowmode" : true,
-    "cogs.streams" : true,
+    "cogs.streams" : false,
     "cogs.translated" : true,
     "cogs.trivia" : true,
+    "cogs.twitch" : true,
     "cogs.whoplays" : true
 }
