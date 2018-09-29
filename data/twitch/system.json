@@ -15,6 +15,21 @@
                 }
             }
         },
+        "453792677452972032" : {
+            "Config" : {
+                "Client-ID" : "ldd810pl8fmldhnqx74tfj0htrspdn",
+                "Default Streamer" : "rollexxx",
+                "VC Category" : null,
+                "VC Channel" : "495535645301669898",
+                "VC Display" : true
+            },
+            "Streamers" : {
+                "rollexxx" : {
+                    "Display Name" : "Rollexxx",
+                    "Streamer ID" : "47514919"
+                }
+            }
+        },
         "461570935988944896" : {
             "Config" : {
                 "Client-ID" : "ldd810pl8fmldhnqx74tfj0htrspdn",

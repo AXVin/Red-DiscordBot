@@ -1,4 +1,31 @@
 {
+    "453792677452972032" : {
+        "channels" : {
+            "member_event_channel" : "495548528618110976",
+            "message_event_channel" : "495548281485787147",
+            "mod_event_channel" : "495548792003756033",
+            "server_event_channel" : "495548628765638656"
+        },
+        "events" : {
+            "on_ban" : true,
+            "on_channel_create" : true,
+            "on_channel_delete" : true,
+            "on_channel_update" : true,
+            "on_kick" : true,
+            "on_member_ban" : true,
+            "on_member_join" : true,
+            "on_member_remove" : true,
+            "on_member_unban" : true,
+            "on_member_update" : true,
+            "on_message_delete" : true,
+            "on_message_edit" : true,
+            "on_server_role_create" : true,
+            "on_server_role_delete" : true,
+            "on_server_role_update" : true,
+            "on_voice_state_update" : true,
+            "on_warning" : true
+        }
+    },
     "461570935988944896" : {
         "channels" : {
             "member_event_channel" : "463649357074530305",

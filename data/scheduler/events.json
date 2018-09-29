@@ -1,3 +1,13 @@
 {
-    "461570935988944896" : {}
+    "461570935988944896" : {
+        "pd" : {
+            "author" : "310074794102095873",
+            "channel" : "476376109017989120",
+            "command" : "leaderboard server 50",
+            "name" : "pd",
+            "repeat" : true,
+            "starttime" : 1538223921,
+            "timedelta" : 1800
+        }
+    }
 }
