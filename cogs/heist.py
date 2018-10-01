@@ -974,7 +974,7 @@ class Heist:
             else:
                 msg = ("You are in {0}. You are serving a {1} of {2}.\nYou can wait out "
                        "your remaining {1} of: {3} or pay {4} credits to finish your "
-                       "{5}.".format(t_jail, t_sentence, sentence, remaining, bail, t_bail))
+                       "{5}. Type `!pubg payout` to pay the sum!".format(t_jail, t_sentence, sentence, remaining, bail, t_bail))
             return "Failed", msg
         elif settings["Players"][author.id]["Status"] == "Dead":
             death_time = settings["Players"][author.id]["Death Timer"]
@@ -982,9 +982,9 @@ class Heist:
             remaining = self.cooldown_calculator(death_time, base_timer)
             if remaining == "No Cooldown":
                 msg = ("Looks like you are still dead, but you can revive at anytime by using the "
-                       "command {}heist rise .".format(prefix))
+                       "command {}pubg rise .".format(prefix))
             else:
-                msg = ("You are dead. You can revive in:\n{}\nUse the command {}heist rise when "
+                msg = ("You are dead. You can revive in:\n{}\nUse the command {}pubg rise when "
                        "the timer has expired.".format(remaining, prefix))
             return "Failed", msg
         elif not self.bank_check(settings, author):
